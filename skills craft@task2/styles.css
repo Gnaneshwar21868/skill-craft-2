@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d9fed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch {
+    background-color: #e9e8e8;
+    border: 1px solid #9787e9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
